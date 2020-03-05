@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:id="@+id/idMainActivity"
+        android:orientation="vertical">
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent">
+
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:text="Plataforma de Compras"
+                      android:textSize="30sp"
+                      android:gravity="center"/>
+
+            <ImageView
+                    android:layout_height="83sp"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="40sp"
+                    android:src="@drawable/mercadolivre"
+                    android:id="@+id/idMercadoLivre"/>
+            <ImageView
+                    android:layout_height="97sp"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="40sp"
+                    android:src="@drawable/buscape_logo"
+                    android:id="@+id/idBuscape"
+                    android:layout_marginBottom="510sp"
+                    android:layout_alignBottom="@+id/idbotaoSobre"/>
+
+            <ImageView
+                    android:layout_height="155sp"
+                    android:layout_width="155sp"
+                    android:src="@drawable/ebay"
+                    android:layout_marginVertical="200sp"
+                    android:id="@+id/idEbay"/>
+            <ImageView
+                    android:layout_height="155sp"
+                    android:layout_width="155sp"
+                    android:src="@drawable/webmotors"
+                    android:id="@+id/idWebMotors"
+                    android:layout_marginVertical="210sp"
+                    android:layout_marginStart="120sp"
+                    android:layout_toEndOf="@+id/idEbay"/>
+
+            <ImageView
+                    android:layout_height="155sp"
+                    android:layout_width="155sp"
+                    android:src="@drawable/magalu"
+                    android:layout_marginVertical="210sp"
+                    android:layout_marginEnd="20sp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="233sp"
+                    android:id="@+id/idMagalu"/>
+            <ImageView
+                    android:layout_height="151dp"
+                    android:layout_width="183dp"
+                    android:src="@drawable/netshoes"
+                    android:id="@+id/idNetshoes"
+                    android:layout_marginVertical="370sp"
+                    android:layout_marginStart="73sp"
+                    android:layout_toEndOf="@+id/idMagalu"/>
+
+
+            <ImageView
+                    android:layout_height="83sp"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="500sp"
+                    android:src="@drawable/americanas"
+                    android:id="@+id/idAmericanas"/>
+
+            <ImageView
+                    android:layout_height="83sp"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="580sp"
+                    android:src="@drawable/submarino"
+                    android:id="@+id/idSubmarino"/>
+
+
+            <Button android:layout_width="match_parent"
+                    android:layout_height="64sp"
+                    android:text="SOBRE"
+                    android:layout_marginTop="600sp"
+                    android:layout_marginLeft="130sp"
+                    android:id="@+id/idbotaoSobre"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="4sp"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="8sp"/>
+
+
+        </RelativeLayout>
+</LinearLayout>
+</FrameLayout>
